@@ -10,7 +10,7 @@ import javafx.scene.text.Font;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class CelsusFarController implements Initializable {
+public class CelsiusFarController implements Initializable {
 
     @FXML
     private Button btnConverter;
@@ -35,6 +35,6 @@ public class CelsusFarController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-
+        
     }
 }
