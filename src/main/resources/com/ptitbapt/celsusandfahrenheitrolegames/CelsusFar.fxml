@@ -8,32 +8,42 @@
 <?import javafx.scene.layout.VBox?>
 
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="430.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ptitbapt.celsusandfahrenheitrolegames.controller.CelsiusFarController">
+<VBox fx:id="formTemperature" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="656.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <HBox prefHeight="100.0" prefWidth="200.0" />
       <HBox fx:id="Temperature" prefHeight="100.0" prefWidth="430.0">
          <children>
+            <VBox prefHeight="200.0" prefWidth="100.0" />
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <AnchorPane prefHeight="100.0" prefWidth="215.0">
+                     <children>
+                        <Label layoutX="63.0" layoutY="14.0" text="Celsius" />
+                        <TextField fx:id="txtCelsius" layoutX="7.0" layoutY="37.0" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <AnchorPane prefHeight="100.0" prefWidth="215.0">
+                     <children>
+                        <Label layoutX="34.0" layoutY="42.0" text="&lt;==&gt;" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
             <AnchorPane prefHeight="100.0" prefWidth="215.0">
                <children>
-                  <TextField fx:id="txtCelsius" layoutX="14.0" layoutY="37.0" />
-                  <Label layoutX="72.0" layoutY="14.0" text="Celsius" />
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="100.0" prefWidth="215.0">
-               <children>
-                  <Label layoutX="26.0" layoutY="42.0" text="&lt;==&gt;" />
-               </children>
-            </AnchorPane>
-            <AnchorPane layoutX="225.0" layoutY="10.0" prefHeight="100.0" prefWidth="215.0">
-               <children>
-                  <TextField fx:id="txtFare" layoutX="-46.0" layoutY="38.0" />
-                  <Label layoutX="19.0" layoutY="14.0" text="Fare" />
+                  <Label layoutX="67.0" layoutY="14.0" text="Fare" />
+                  <TextField fx:id="txtFare" layoutY="37.0" />
                </children>
             </AnchorPane>
          </children>
       </HBox>
       <HBox prefHeight="100.0" prefWidth="200.0">
          <children>
+            <VBox prefHeight="200.0" prefWidth="100.0" />
             <AnchorPane prefHeight="100.0" prefWidth="430.0">
                <children>
                   <Slider fx:id="SliderCelsius" layoutX="17.0" layoutY="42.0" prefHeight="16.0" prefWidth="397.0" />
@@ -45,6 +55,7 @@
       </HBox>
       <HBox prefHeight="100.0" prefWidth="200.0">
          <children>
+            <VBox prefHeight="200.0" prefWidth="100.0" />
             <AnchorPane prefHeight="100.0" prefWidth="430.0">
                <children>
                   <Slider fx:id="SliderFare" layoutX="17.0" layoutY="42.0" prefHeight="16.0" prefWidth="397.0" />

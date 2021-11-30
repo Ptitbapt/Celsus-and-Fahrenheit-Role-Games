@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83cf5be7-91df-4f31-9fd0-f082f5d960a9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ptitbapt/celsusandfahrenheitrolegames/controller/CelsusFarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ptitbapt/celsusandfahrenheitrolegames/controller/CelsiusFarController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ptitbapt/celsusandfahrenheitrolegames/model/Temperature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ptitbapt/celsusandfahrenheitrolegames/model/Temperature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ptitbapt/celsusandfahrenheitrolegames/controller/CelsiusFarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ptitbapt/celsusandfahrenheitrolegames/controller/CelsiusFarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ptitbapt/celsusandfahrenheitrolegames/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ptitbapt/celsusandfahrenheitrolegames/controller/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/ptitbapt/celsusandfahrenheitrolegames/CelsusFar.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/ptitbapt/celsusandfahrenheitrolegames/CelsusFar.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/ptitbapt/celsusandfahrenheitrolegames/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/ptitbapt/celsusandfahrenheitrolegames/Main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ptitbapt/celsusandfahrenheitrolegames/CelsusFar.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ptitbapt/celsusandfahrenheitrolegames/CelsusFar.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ptitbapt/celsusandfahrenheitrolegames/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ptitbapt/celsusandfahrenheitrolegames/Main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ptitbapt/celsusandfahrenheitrolegames/controller/CelsusFarController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ptitbapt/celsusandfahrenheitrolegames/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ptitbapt/celsusandfahrenheitrolegames/controller/MainController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638275806460</updated>
-      <workItem from="1638275811018" duration="4533000" />
+      <workItem from="1638275811018" duration="7516000" />
     </task>
     <servers />
   </component>
