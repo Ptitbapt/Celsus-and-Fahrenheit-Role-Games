@@ -7,4 +7,6 @@ module com.ptitbapt.celsusandfahrenheitrolegames {
 
     opens com.ptitbapt.celsusandfahrenheitrolegames to javafx.fxml;
     exports com.ptitbapt.celsusandfahrenheitrolegames;
+    exports com.ptitbapt.celsusandfahrenheitrolegames.controller;
+    opens com.ptitbapt.celsusandfahrenheitrolegames.controller to javafx.fxml;
 }

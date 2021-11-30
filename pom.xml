@@ -76,7 +76,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                com.ptitbapt.celsusandfahrenheitrolegames/com.ptitbapt.celsusandfahrenheitrolegames.HelloApplication
+                                com.ptitbapt.celsusandfahrenheitrolegames/com.ptitbapt.celsusandfahrenheitrolegames.Main
                             </mainClass>
                         </configuration>
                     </execution>

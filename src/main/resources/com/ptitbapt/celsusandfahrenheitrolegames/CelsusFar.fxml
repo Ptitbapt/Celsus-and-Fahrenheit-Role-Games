@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="430.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ptitbapt.celsusandfahrenheitrolegames.controller.CelsusFarController">
+   <children>
+      <HBox prefHeight="100.0" prefWidth="200.0" />
+      <HBox fx:id="Temperature" prefHeight="100.0" prefWidth="430.0">
+         <children>
+            <AnchorPane prefHeight="100.0" prefWidth="215.0">
+               <children>
+                  <TextField fx:id="txtCelsius" layoutX="14.0" layoutY="37.0" />
+                  <Label layoutX="72.0" layoutY="14.0" text="Celsius" />
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="100.0" prefWidth="215.0">
+               <children>
+                  <Label layoutX="26.0" layoutY="42.0" text="&lt;==&gt;" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="225.0" layoutY="10.0" prefHeight="100.0" prefWidth="215.0">
+               <children>
+                  <TextField fx:id="txtFare" layoutX="-46.0" layoutY="38.0" />
+                  <Label layoutX="19.0" layoutY="14.0" text="Fare" />
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <AnchorPane prefHeight="100.0" prefWidth="430.0">
+               <children>
+                  <Slider fx:id="SliderCelsius" layoutX="17.0" layoutY="42.0" prefHeight="16.0" prefWidth="397.0" />
+                  <Label layoutX="116.0" layoutY="25.0" text="Representation Celsius ( 0° - 100° )  " />
+                  <Label fx:id="TmpCelsus" layoutX="201.0" layoutY="58.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <AnchorPane prefHeight="100.0" prefWidth="430.0">
+               <children>
+                  <Slider fx:id="SliderFare" layoutX="17.0" layoutY="42.0" prefHeight="16.0" prefWidth="397.0" />
+                  <Label layoutX="123.0" layoutY="25.0" text="Representation Fare ( 0° - 1000° )" />
+                  <Label fx:id="TmpFare" layoutX="200.0" layoutY="58.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+   </children>
+</VBox>
