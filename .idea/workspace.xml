@@ -5,22 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83cf5be7-91df-4f31-9fd0-f082f5d960a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ptitbapt/celsusandfahrenheitrolegames/controller/CelsusFarController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/ptitbapt/celsusandfahrenheitrolegames/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Celsus-and-Fahrenheit-Role-Games.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Celsius-and-Fahrenheit-Role-Games.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ptitbapt/celsusandfahrenheitrolegames/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ptitbapt/celsusandfahrenheitrolegames/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ptitbapt/celsusandfahrenheitrolegames/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ptitbapt/celsusandfahrenheitrolegames/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/ptitbapt/celsusandfahrenheitrolegames/hello-view.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ptitbapt/celsusandfahrenheitrolegames/HelloApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ptitbapt/celsusandfahrenheitrolegames/HelloController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ptitbapt/celsusandfahrenheitrolegames/hello-view.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ptitbapt/celsusandfahrenheitrolegames/controller/CelsusFarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ptitbapt/celsusandfahrenheitrolegames/controller/CelsiusFarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ptitbapt/celsusandfahrenheitrolegames/model/Temperature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ptitbapt/celsusandfahrenheitrolegames/model/Temperature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/ptitbapt/celsusandfahrenheitrolegames/CelsusFar.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/ptitbapt/celsusandfahrenheitrolegames/CelsusFar.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="CSS File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -99,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638275806460</updated>
-      <workItem from="1638275811018" duration="4173000" />
+      <workItem from="1638275811018" duration="4533000" />
     </task>
     <servers />
   </component>
