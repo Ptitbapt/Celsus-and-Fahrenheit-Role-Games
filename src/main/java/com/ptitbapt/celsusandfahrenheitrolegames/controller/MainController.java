@@ -27,7 +27,7 @@ public class MainController implements Initializable {
     private Button btnRPG;
 
     @FXML
-    private VBox pageCentre;
+    private AnchorPane pageCentre;
 
     @FXML
     private Font x1;
@@ -50,7 +50,7 @@ public class MainController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        pageCentre.getChildren().removeAll(form1);
+
         btnConverter.setOnMouseClicked(btnConverterAction -> {
 
         });

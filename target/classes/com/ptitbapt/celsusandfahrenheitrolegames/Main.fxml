@@ -48,7 +48,7 @@
 <?import javafx.scene.paint.Color?>
 <?import javafx.scene.text.Font?>
 
-<VBox prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<VBox prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ptitbapt.celsusandfahrenheitrolegames.controller.MainController">
   <children>
     <MenuBar VBox.vgrow="NEVER">
       <menus>
@@ -109,12 +109,12 @@
                   </VBox>
           </children>
         </AnchorPane>
-        <ScrollPane fx:id="pageCentre" prefHeight="-1.0" prefWidth="-1.0">
+        <ScrollPane prefHeight="-1.0" prefWidth="-1.0">
                <content>
-                  <AnchorPane prefHeight="550.0" prefWidth="440.0">
+                  <AnchorPane fx:id="pageCentre" prefHeight="550.0" prefWidth="440.0">
                      <children>
-                        <VBox fx:id="pageCentre" prefHeight="550.0" prefWidth="442.0" />
-                        <fx:include fx:id="form1" source="CelsusFar.fxml" />
+                        <VBox prefHeight="550.0" prefWidth="442.0" />
+                        <fx:include fx:id="form1" source="CelsiusFar.fxml" />
                      </children>
                   </AnchorPane>
                </content>

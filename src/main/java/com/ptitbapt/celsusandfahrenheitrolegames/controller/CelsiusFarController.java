@@ -42,6 +42,34 @@ public class CelsiusFarController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+        txtCelsius.setOnKeyReleased(actionKEY -> {
+            double celsius = Double.parseDouble(txtCelsius.getText());
+            double far = Math.round(celsius * 9 / 5 + 32);
+            txtFare.setText(String.valueOf(far));
+        });
+
+
+        txtFare.setOnKeyReleased(actionKEY2 -> {
+            double far = Double.parseDouble(txtFare.getText());
+            double celsius = Math.round((far - 32) / 1.8);
+            txtCelsius.setText(String.valueOf(celsius));
+        });
+
+        txtCelsius.setOnKeyReleased(actionKEY -> {
+            double convFah = Double.parseDouble(txtCelsius.getText());
+            double fahResult = ((convFah*1.8) + 32);
+            txtFare.setText(String.valueOf(fahResult));
+            SliderCelsius.setValue(convFah);
+            SliderFare.setValue(fahResult);
+        });
+
+        txtFare.setOnKeyReleased(actionKEY -> {
+            double convCelsius = Double.parseDouble(txtFare.getText());
+            double celsiusResult = ((convCelsius/1.8) - 32);
+            txtCelsius.setText(String.valueOf(celsiusResult));
+            SliderCelsius.setValue(convCelsius);
+            SliderFare.setValue(celsiusResult);
+        });
 
     }
 }
